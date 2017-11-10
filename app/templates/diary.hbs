@@ -1,0 +1,12 @@
+<form id="diary"><textarea id="a"></textarea>
+	<div>
+		<input 
+            id="m" 
+            autoComplete="off" 
+            placeholder="keyword"
+            onchange="handleChange()"/>
+            {{#link-to 'application'}}
+		<button>Send</button>
+        {{/link-to}}
+	</div>
+</form>
